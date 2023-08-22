@@ -61,8 +61,8 @@ while True:
         text = input("Type your messege : ")
         key = input("Type the key (String) : ")
         
-        print(text)
-        print(key)
+        # print(text)
+        # print(key)
         
         text_len = len(text)
         key_len = len(key)
@@ -77,8 +77,8 @@ while True:
             for i in range(deff_len):
                 key += key[i]
         
-        print(text)
-        print(key)
+        # print(text)
+        # print(key)
         
         if choice == "encode":
             encode(text, key)
